@@ -1,0 +1,13 @@
+
+<?php
+$student = [
+    "name" => "Aline",
+    "age" => 20,
+    "passed" => true,
+    "average" => 75.5,
+    "phone" => null,
+    "subject" => ["php", "html", "css"],
+];
+
+echo json_encode($student);
+
